@@ -1,0 +1,21 @@
+h3{
+    color:black;
+    background-color: aquamarine;
+}
+
+.text-warning{
+    color:chocolate;
+    background-color: bisque;
+}
+/* class ko dot se
+id ko # se */
+
+#foo{
+    font-size: 40px;
+    color: chartreuse;
+    background-color: coral;
+}
+
+h1{
+    color:grey;
+}
