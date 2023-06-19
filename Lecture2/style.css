@@ -1,0 +1,15 @@
+p{
+    color:lightblue;
+    /* background-color:turquoise; */
+}
+
+.border-primary{
+    color: #dc56da;
+    border-style: solid;
+    border-width: 10px;
+    border-color: blue;
+    border-radius: 10px;
+
+    /* This is shorthand property
+    border: 10px,solid,blue; */
+}

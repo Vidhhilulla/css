@@ -1,0 +1,48 @@
+/* body{
+    color:pink;
+    border:2px solid black;
+} */
+
+
+
+ /* The difference is * selects every element and gives it a border
+ whereas border selects the whole body and gives it a border */
+
+ /* *{
+    color:pink;
+    border:2px solid black;
+ }  */
+
+ .parent-div{
+    color: red;
+    border: 4px solid black;
+    padding: 20px;
+    margin: 5px;
+    width: 200px;
+    /* height: 100px; */
+    box-sizing: border-box;
+
+ }
+
+
+ /* Border box mai include everything under 200
+ Else,content box 
+ sabko alag alag size */
+
+ /* It gives each individual the alloted size without border-blocksize */
+
+ /* U can change the width and height */
+
+ /* Reset styling means we give all the styling by ourselves
+ but disadvantage is then we have to give everything by ourselves */
+
+
+ *{
+    margin: 0;
+    padding=0;
+    box-sizing: border-box;
+
+ }
+
+ /* This is reset style means meko browser ka diya hua margin border chaiye hi nhi 
+ Also,it will work same on different browsers*/
