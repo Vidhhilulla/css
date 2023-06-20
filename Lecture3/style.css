@@ -1,0 +1,71 @@
+
+.ml{
+    margin-left:20px;
+    margin-bottom: 25px;
+  }
+  /* If we want to give padding,margin or something at only one place/side */
+
+  .pr{
+    padding-right:20px;
+  }
+
+  .border-warning{
+    border:2px solid yellow;
+    border-bottom-right-radius: 5px;
+  }
+
+  /* .border-bottom{} */
+  /* To give lines hr */
+
+  body{
+    font-family: 'Roboto', sans-serif;
+  }
+
+  /* Font Stack 
+  Last mai give generic wala so that vo confirm mila*/
+
+
+  .class-1, .class-2, #div-3{
+    color: blueviolet;
+  }
+   
+
+  /* Descendent selector */
+  .class-1 p{ 
+    color: red
+  }
+
+  /* .class-1  div p{ 
+    color: red
+  } */
+
+
+  /* Child selector */
+  .class-1 > p{
+    color: green;
+  }
+
+  .class-1 > .innerdiv >p{
+    color: yellow;
+    border:2px Solid Black;
+  }
+
+
+  /* Adjacent sibling selector */
+  #sibling+p{
+    color: pink !important;
+  }
+
+
+  /* general sibling */
+
+  #sibling ~p{
+    color:darkorange;
+  }
+
+  #sibling1+div>p{
+    color: aqua;
+  }
+  #sibling1~div{
+    color: brown;
+  }

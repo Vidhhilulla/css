@@ -1,0 +1,21 @@
+/* html{
+    font-size: 30px;
+} */
+
+/* For rem */
+/* Html se body ke paas aata hai */
+
+body{
+    margin:0;
+}
+.vh-full{
+border:1px solid red;
+/* box-sizing: border-box; */
+height:100vh;
+}
+
+.vw-full{
+    border:1px solid red;
+    box-sizing: border-box;
+    width:100vw;
+    }

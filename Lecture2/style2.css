@@ -37,12 +37,18 @@
  but disadvantage is then we have to give everything by ourselves */
 
 
+ /* Reset styles */
  *{
     margin: 0;
-    padding=0;
+    padding:0;
     box-sizing: border-box;
+    /* color:hsl(from red  h s calc(l - 50% )) */
 
  }
+ /* COntent-box is by default
+ border-box adjusts */
 
  /* This is reset style means meko browser ka diya hua margin border chaiye hi nhi 
  Also,it will work same on different browsers*/
+
+

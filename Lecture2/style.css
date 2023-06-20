@@ -11,5 +11,7 @@ p{
     border-radius: 10px;
 
     /* This is shorthand property
-    border: 10px,solid,blue; */
+    only border
+    border: 10px,solid,blue; 
+    This is how we will write until and unless we need a seperate property*/
 }
