@@ -1,0 +1,38 @@
+.box{
+    width: 300px;
+    height: 300px;
+    margin: 30px;
+
+}
+
+.box1{
+border: 2px solid blue;
+}
+
+.box2{
+border: 2px solid red;
+/* position: relative;
+left: 50px;
+top: 20px; */
+
+}
+
+.box3{
+    border: 2px solid green;
+    /* position: relative; */
+
+
+}
+
+.box4{
+
+border: 2px solid violet;
+position: absolute;
+top:20px;
+/* bottom: 60%; */
+}
+
+.box5{
+border: 2px solid chartreuse;
+
+}

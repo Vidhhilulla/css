@@ -1,0 +1,43 @@
+/* Reset styles */
+/* * takes each and every element */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* Navbar section starts */
+/* Bringing the li items in one line */
+.navbar li{
+    display: inline-block;
+    padding: 10px;
+    /* background-color:chocolate; */
+
+}
+
+.navbar{
+    padding: 20px 20px;
+    background-color:black;
+    opacity: 0.5;
+    position: sticky;
+    top:0px;
+}
+
+/* To remove the underline and change the color which was because of href */
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+
+/* Navbar section ends */
+
+
+body{
+    background-color: #ffe8d6;
+    height: 1000px;
+    
+}
+
