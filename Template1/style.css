@@ -1,0 +1,96 @@
+/* Reset styles */
+/* * takes each and every element */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;;
+
+    
+}
+
+
+
+/* Navbar section starts */
+/* Bringing the li items in one line */
+.navbar li{
+    display: inline-block;
+    padding: 10px;
+    /* background-color:chocolate; */
+
+}
+
+.navbar{
+    padding: 20px 20px;
+    background-color:black;
+    opacity: 0.5;
+    position: sticky;
+    top:0px;
+}
+
+/* To remove the underline and change the color which was because of href */
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+
+/* Navbar section ends */
+
+
+body{
+    background-color: #ffe8d6;
+    height: 1000px;
+    
+}
+
+h2{ 
+   margin-left: 50px;
+   margin-top: 20px;
+
+}
+
+.para
+{
+    margin: 2px;
+    padding: 2px;
+    line-height:1.5em;
+}
+
+/* Main section */
+.left
+{
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+
+}
+
+.right
+{
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;  
+    
+}
+
+
+img{
+    width: 100%;
+    border-radius: 15px;
+    /* height: 600px; */
+    position:relative;
+    bottom:50px;
+    /* top: 50px; */
+    /* height: calc(100vh - 100px); */
+}
+
+.main{
+    margin: 30px 50px;
+    background-color: #fff1e6;
+    padding:30px;
+    border-radius: 5px;
+
+}
+/* Main section ends */
+
