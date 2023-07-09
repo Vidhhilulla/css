@@ -1,0 +1,45 @@
+#mobile, #ptablet, #ltablet, #laptop
+{
+    display: none;
+
+}
+
+@media screen and (min-width:992px) {
+    
+    #laptop
+    {
+        display: block;
+        background-color: red;
+    }
+}
+
+
+@media screen and (min-width:768px) and (max-width:992px) {
+    
+    #ltablet
+    {
+        display: block;
+        background-color: blue;
+    }
+}
+
+
+@media screen and (min-width:700px) and (max-width:767px) {
+    
+    #ptablet
+    {
+        display: block;
+        background-color: yellow;
+    }
+}
+
+@media screen and (max-width:699px) {
+    
+    #mobile
+    {
+        display: block;
+        background-color:cadetblue;
+        
+    }
+}
+
