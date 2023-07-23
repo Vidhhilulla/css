@@ -1,0 +1,57 @@
+a:link
+{
+    color: black;
+}
+
+a:visited
+{
+    color:aqua
+}
+a:hover
+{
+    color: red;
+}
+
+button
+{
+    padding: 10px;
+    font-size: 30px;
+    /* align-self: start; */
+}
+
+button:hover
+{
+    color: red;
+    background-color: chocolate;
+}
+
+
+
+.container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.h2heading::before{
+    content: "ee";
+}
+
+/* jo bhi content hai uske pehle */
+.h2heading::after{
+    content: "*";
+}
+
+.list li:nth-child(3n)
+{
+    color: red;
+
+}
+
+.even p:nth-child(2n)
+{
+    color: green;
+}
+
